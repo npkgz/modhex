@@ -27,7 +27,7 @@
     "test": "eslint modhex.js; mocha"
   },
   "engines": {
-    "node": ">=4.0"
+    "node": ">=6.0"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
