@@ -39,9 +39,10 @@ encode
 const _modex = require('modhex');
 
 // encode hex data
-const data0 = _modex.encode('');
+const data0 = _modex.encode('5834b135dc124d38c');
 
 // encode buffer
+const mybuffer = Buffer.from('5834b135dc124d38c', 'hex');
 const data1 = _modhex.encode(mybuffer);
 ```
 
@@ -63,10 +64,10 @@ decode
 const _modex = require('modhex');
 
 // decode modhex data to hex
-const data0 = _modex.encode('');
+const data0 = _modex.encode('iijbeetrkrtlghuddhdhhjdej');
 
 // decode modhex to buffer
-const data1 = _modhex.encode('', 'buffer');
+const data1 = _modhex.encode('iijbeetrkrtlghuddhdhhjdej', 'buffer');
 ```
 
 Any Questions ? Report a Bug ? Enhancements ?
