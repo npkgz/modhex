@@ -1,0 +1,37 @@
+{
+  "name": "modhex",
+  "version": "1.0.0",
+  "author": "Andi Dittrich (https://andidittrich.de)",
+  "license": "MIT",
+  "homepage": "https://github.com/AndiDittrich/Node.modhex",
+  "bugs": "https://github.com/AndiDittrich/Node.modhex/issues",
+  "repository": "AndiDittrich/Node.modhex",
+  "description": "modhex encoding/decoding used by Yubico-OTP Authentication",
+  "keywords": [
+    "modhex",
+    "yubikey",
+    "otp",
+    "auth",
+    "encoding",
+    "decoding"
+  ],
+  "files": [
+    "CHANGES.md",
+    "LICENSE.md",
+    "README.md"
+  ],
+  "main": "modhex.js",
+  "bin": {},
+  "preferGlobal": false,
+  "scripts": {
+    "test": "eslint modhex.js; mocha"
+  },
+  "engines": {
+    "node": ">=4.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-aenondynamics": "^0.1.0",
+    "mocha": "^3.4.2"
+  }
+}
